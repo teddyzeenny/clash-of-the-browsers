@@ -7,7 +7,7 @@ $this->Html->css('setup',null,array('inline'=>false));
 $this->Html->css('game',null,array('inline'=>false));
  */
 
-$this->Html->css('desktop-1.0.min',null,array('inline'=>false));
+$this->Html->css('desktop',null,array('inline'=>false));
 ?>
 
 <header class="big">

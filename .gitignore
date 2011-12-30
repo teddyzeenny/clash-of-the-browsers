@@ -1,0 +1,15 @@
+/app/tmp
+/app/tmp/*
+/app/Config/database.php
+/app/tmp
+/app/tmp/*
+/app/webroot/phpmyadmin/*
+/lib/Cake/Console/Templates/skel/tmp/
+/nbproject/*
+/nbproject/private/
+/nbproject/*
+/updates/
+!empty
+/app/webroot/images/get_image/
+/app/webroot/img/website/content/
+/app/webroot/min/tmp/
