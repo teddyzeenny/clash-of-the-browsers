@@ -1,0 +1,14 @@
+<IfModule mod_expires.c>
+    ExpiresDefault "access plus 1 second"
+</IfModule>
+
+AddType text/cache-manifest .appcache
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^(.*)$ index.php?/$1 [QSA,L]
+</IfModule>
+
+

@@ -1,0 +1,15 @@
+CACHE MANIFEST
+#v1.108
+
+CACHE:
+/mobilecourse/7/css/mobile-1.0.min.css
+/mobilecourse/7/js/combined-1.0.min.js
+/mobilecourse/7/img/bg.jpg
+/mobilecourse/7/img/sprite.png
+/mobilecourse/7/img/chrome.svg
+/mobilecourse/7/img/chrome_hit.svg
+/mobilecourse/7/img/opera_hit.svg
+/mobilecourse/7/img/opera.svg
+    
+NETWORK:
+/mobilecourse/7/games/get_scores

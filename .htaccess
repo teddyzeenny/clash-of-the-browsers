@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+   RewriteEngine on
+   
+   RewriteCond %{HTTP_HOST} ^clashofthebrowsers\.com$
+   RewriteRule ^(.*)$ http://www.clashofthebrowsers.com/$1 [R=permanent,L]
+   
+   RewriteRule    ^$ app/webroot/    [L]
+   RewriteRule    (.*) app/webroot/$1 [L]
+</IfModule>

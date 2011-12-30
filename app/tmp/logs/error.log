@@ -1,0 +1,453 @@
+2011-10-16 14:22:37 Error: [MissingViewException] View file "C:\wamp\www\mobilecourse\7\app\View\Games\index.ctp" is missing.
+#0 C:\wamp\www\mobilecourse\7\lib\Cake\View\View.php(363): View->_getViewFileName(NULL)
+#1 C:\wamp\www\mobilecourse\7\lib\Cake\Controller\Controller.php(898): View->render(NULL, NULL)
+#2 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(113): Controller->render()
+#3 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(GamesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-10-16 14:26:12 Error: [MissingViewException] View file "C:\wamp\www\mobilecourse\7\app\View\Games\ship_setup.ctp" is missing.
+#0 C:\wamp\www\mobilecourse\7\lib\Cake\View\View.php(363): View->_getViewFileName(NULL)
+#1 C:\wamp\www\mobilecourse\7\lib\Cake\Controller\Controller.php(898): View->render(NULL, NULL)
+#2 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(113): Controller->render()
+#3 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(GamesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-10-16 17:32:55 Error: [MissingTableException] Database table updates for model Update was not found.
+#0 C:\wamp\www\mobilecourse\7\lib\Cake\Model\Model.php(3236): Model->setSource('updates')
+#1 C:\wamp\www\mobilecourse\7\lib\Cake\Model\Model.php(720): Model->getDataSource()
+#2 [internal function]: Model->__call('extract', Array)
+#3 C:\wamp\www\mobilecourse\7\app\Controller\UpdatesController.php(43): AppModel->extract('C:/wamp/www/mob...')
+#4 [internal function]: UpdatesController->extract_updates()
+#5 C:\wamp\www\mobilecourse\7\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(UpdatesController), Array)
+#6 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#7 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(UpdatesController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2011-10-16 17:33:43 Error: [MissingActionException] Action UpdatesController::reset_update_dtes() could not be found.
+#0 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(UpdatesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-10-16 17:33:45 Error: [MissingActionException] Action UpdatesController::reset_update_dates() could not be found.
+#0 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(UpdatesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-10-17 13:27:46 Error: [MissingActionException] Action GamesController::play() could not be found.
+#0 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(GamesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-10-17 13:29:01 Error: [MissingActionException] Action GamesController::play() could not be found.
+#0 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(GamesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-10-17 13:29:07 Error: [MissingActionException] Action GamesController::play() could not be found.
+#0 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(GamesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-10-17 13:29:11 Error: [MissingActionException] Action GamesController::play() could not be found.
+#0 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(GamesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-10-17 13:29:50 Error: [MissingActionException] Action GamesController::play() could not be found.
+#0 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(GamesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-10-19 11:58:03 Error: [MissingActionException] Action GamesController::test() could not be found.
+#0 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(GamesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-10-19 11:58:38 Error: [MissingActionException] Action GamesController::test() could not be found.
+#0 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(GamesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-10-19 12:00:24 Error: [MissingActionException] Action GamesController::test() could not be found.
+#0 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(GamesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-10-19 12:00:41 Error: [MissingActionException] Action GamesController::test() could not be found.
+#0 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(GamesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-10-19 12:00:42 Error: [MissingActionException] Action GamesController::test() could not be found.
+#0 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(GamesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-10-19 12:00:50 Error: [MissingActionException] Action GamesController::test() could not be found.
+#0 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(GamesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-10-19 12:00:51 Error: [MissingActionException] Action GamesController::test() could not be found.
+#0 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(GamesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-10-19 12:01:04 Error: [MissingActionException] Action GamesController::test() could not be found.
+#0 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(GamesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-10-19 12:01:05 Error: [MissingActionException] Action GamesController::test() could not be found.
+#0 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(GamesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-10-19 12:02:05 Error: [MissingActionException] Action GamesController::test() could not be found.
+#0 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(GamesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-10-19 12:02:16 Error: [MissingActionException] Action GamesController::test() could not be found.
+#0 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(GamesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-10-19 12:02:17 Error: [MissingActionException] Action GamesController::test() could not be found.
+#0 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(GamesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-10-19 12:02:26 Error: [MissingActionException] Action GamesController::test() could not be found.
+#0 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(GamesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-10-19 12:02:27 Error: [MissingActionException] Action GamesController::test() could not be found.
+#0 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(GamesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-10-19 12:02:34 Error: [MissingActionException] Action GamesController::test() could not be found.
+#0 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(GamesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-10-19 12:02:35 Error: [MissingActionException] Action GamesController::test() could not be found.
+#0 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(GamesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-10-19 12:02:48 Error: [MissingActionException] Action GamesController::test() could not be found.
+#0 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(GamesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-10-19 12:02:49 Error: [MissingActionException] Action GamesController::test() could not be found.
+#0 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(GamesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-10-19 12:02:58 Error: [MissingActionException] Action GamesController::test() could not be found.
+#0 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(GamesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-10-19 12:02:59 Error: [MissingActionException] Action GamesController::test() could not be found.
+#0 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(GamesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-10-19 12:03:05 Error: [MissingActionException] Action GamesController::test() could not be found.
+#0 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(GamesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-10-19 12:05:37 Error: [MissingActionException] Action GamesController::image.php() could not be found.
+#0 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(GamesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-10-19 12:05:39 Error: [MissingActionException] Action GamesController::image.php() could not be found.
+#0 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(GamesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-10-19 12:08:22 Error: [MissingActionException] Action GamesController::image.php() could not be found.
+#0 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(GamesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-10-19 12:08:48 Error: [MissingActionException] Action GamesController::image.php() could not be found.
+#0 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(GamesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-10-19 12:08:49 Error: [MissingActionException] Action GamesController::image.php() could not be found.
+#0 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(GamesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-10-19 12:08:49 Error: [MissingActionException] Action GamesController::image.php() could not be found.
+#0 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(GamesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-10-19 12:09:50 Error: [MissingActionException] Action GamesController::image.php() could not be found.
+#0 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(GamesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-10-19 12:09:52 Error: [MissingActionException] Action GamesController::image.php() could not be found.
+#0 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(GamesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-10-19 12:10:15 Error: [MissingActionException] Action GamesController::image.php() could not be found.
+#0 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(GamesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-10-19 12:22:49 Error: [MissingActionException] Action GamesController::images.php() could not be found.
+#0 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(GamesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-10-19 12:25:16 Error: [MissingActionException] Action GamesController::images.php() could not be found.
+#0 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(GamesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-10-19 12:25:17 Error: [MissingActionException] Action GamesController::images.php() could not be found.
+#0 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(GamesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-10-21 08:13:36 Error: [MissingActionException] Action GamesController::image.php() could not be found.
+#0 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(GamesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-10-21 08:13:37 Error: [MissingActionException] Action GamesController::image.php() could not be found.
+#0 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(GamesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-10-21 08:13:57 Error: [MissingActionException] Action GamesController::image.php() could not be found.
+#0 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(GamesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-10-21 08:13:59 Error: [MissingActionException] Action GamesController::image.php() could not be found.
+#0 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(GamesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-10-25 08:06:40 Error: [MissingActionException] Action GamesController::image.php() could not be found.
+#0 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(GamesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-10-25 08:17:46 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-25 08:17:46 Error: [MissingControllerException] Controller class Image.phpController could not be found.
+#0 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-25 08:28:42 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-25 08:54:01 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-25 09:02:01 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-25 09:04:04 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-25 09:04:04 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-25 12:29:17 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-25 12:29:20 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-25 12:29:21 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-25 12:29:22 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-25 12:29:22 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-25 12:29:23 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-25 12:29:23 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-25 12:29:44 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-25 12:29:45 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-25 12:30:01 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-25 13:12:48 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-25 13:12:50 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-26 09:51:23 Error: [MissingControllerException] Controller class SetupController could not be found.
+#0 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-26 11:56:35 Error: [MissingControllerException] Controller class JavascriptController could not be found.
+#0 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-26 18:11:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-27 16:04:59 Error: [MissingControllerException] Controller class ScoresController could not be found.
+#0 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-27 18:33:24 Error: [MissingControllerException] Controller class ScoresController could not be found.
+#0 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-27 18:33:24 Error: [MissingControllerException] Controller class ScoresController could not be found.
+#0 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-27 18:33:25 Error: [MissingControllerException] Controller class ScoresController could not be found.
+#0 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-29 10:11:11 Error: [MissingActionException] Action GamesController::highscore() could not be found.
+#0 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(GamesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-10-29 10:11:14 Error: [MissingActionException] Action GamesController::highscore() could not be found.
+#0 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(GamesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-10-29 10:29:56 Error: [MissingViewException] View file "C:\wamp\www\mobilecourse\7\app\View\Games\submit_score.ctp" is missing.
+#0 C:\wamp\www\mobilecourse\7\lib\Cake\View\View.php(363): View->_getViewFileName(NULL)
+#1 C:\wamp\www\mobilecourse\7\lib\Cake\Controller\Controller.php(898): View->render(NULL, NULL)
+#2 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(113): Controller->render()
+#3 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(GamesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-10-29 13:06:56 Error: [MissingControllerException] Controller class ScoresController could not be found.
+#0 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-29 13:39:34 Error: [MissingControllerException] Controller class ScoresController could not be found.
+#0 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-29 13:43:22 Error: [MissingControllerException] Controller class ScoresController could not be found.
+#0 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-29 14:12:08 Error: [MissingControllerException] Controller class ScoresController could not be found.
+#0 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-29 14:14:49 Error: [MissingControllerException] Controller class ScoresController could not be found.
+#0 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-29 19:42:34 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-29 19:42:34 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-29 19:42:34 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-29 19:42:34 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-29 19:42:34 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-29 19:42:34 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-29 19:45:32 Error: [MissingViewException] View file "C:\wamp\www\mobilecourse\7\app\View\Games\index.ctp" is missing.
+#0 C:\wamp\www\mobilecourse\7\lib\Cake\View\View.php(363): View->_getViewFileName(NULL)
+#1 C:\wamp\www\mobilecourse\7\lib\Cake\Controller\Controller.php(898): View->render(NULL, NULL)
+#2 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(113): Controller->render()
+#3 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(GamesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-10-29 20:13:03 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-29 20:13:04 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-29 20:15:05 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-29 20:15:37 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-29 20:15:38 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-29 20:15:54 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-29 20:15:55 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-29 20:16:03 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-29 20:16:03 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-29 20:16:57 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-29 20:16:58 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-30 13:32:29 Error: [MissingControllerException] Controller class MController could not be found.
+#0 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-30 13:48:11 Error: [MissingControllerException] Controller class MController could not be found.
+#0 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-30 13:50:45 Error: [MissingControllerException] Controller class MController could not be found.
+#0 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-30 13:50:47 Error: [MissingControllerException] Controller class MController could not be found.
+#0 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-30 13:51:35 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-30 13:51:44 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-30 13:51:45 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-30 13:53:35 Error: [MissingViewException] View file "C:\wamp\www\mobilecourse\7\app\View\Updates\index.ctp" is missing.
+#0 C:\wamp\www\mobilecourse\7\lib\Cake\View\View.php(363): View->_getViewFileName(NULL)
+#1 C:\wamp\www\mobilecourse\7\lib\Cake\Controller\Controller.php(898): View->render(NULL, NULL)
+#2 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(113): Controller->render()
+#3 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(UpdatesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-10-30 16:22:29 Error: [MissingViewException] View file "C:\wamp\www\mobilecourse\7\app\View\Games\combine_js.ctp" is missing.
+#0 C:\wamp\www\mobilecourse\7\lib\Cake\View\View.php(363): View->_getViewFileName(NULL)
+#1 C:\wamp\www\mobilecourse\7\lib\Cake\Controller\Controller.php(898): View->render(NULL, NULL)
+#2 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(113): Controller->render()
+#3 C:\wamp\www\mobilecourse\7\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(GamesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\mobilecourse\7\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}

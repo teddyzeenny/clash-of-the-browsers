@@ -1,0 +1,9 @@
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType text/css "access plus 1 days"
+ExpiresDefault "access 1 days"
+</IfModule>
+
+<ifModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/css
+</ifModule>

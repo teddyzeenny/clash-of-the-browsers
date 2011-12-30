@@ -1,0 +1,106 @@
+#setup h1 {
+    text-align:center;
+    font-size:1.125em;
+    font-weight:bold;
+   
+
+}
+
+#setup nav.actions {
+    padding-top:5px;
+}
+
+#setup nav.actions li{
+    list-style-type:none;
+    float:left;
+    width:50%;
+}
+
+#setup nav.actions li a{
+    display:block;
+    text-align:center;
+    padding:10px;
+    margin:10px;
+    background:#444;
+    background:rgba(255,255,255,0.3);
+    color:#fff;
+    
+    text-decoration:none;
+    
+     -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+#setup #clear-ships.disabled {
+    opacity:0.5;
+    cursor:default;
+}
+
+#setup #ship-picker {
+    clear:both;
+    border-bottom:solid 1px #ccc;
+    border-top:solid 1px #ccc;
+    position:relative;
+    padding-bottom:5px;
+}
+
+#setup #ship-picker .hint {
+    padding-right:5px;
+}
+
+#setup #ship-picker .ships {
+    padding:1px;
+    border:solid 1px  yellow ;
+    position:relative;
+}
+
+#setup #ship-picker ul {
+    display:block;
+    list-style-type:none;
+}
+
+
+
+#setup #flip {
+    display:block;
+    position:absolute;
+    right:-70px;
+    top:0px;
+    font-size:0.8em;
+    height:30px;
+    padding-left:30px;
+    padding-top:0.4em;
+    background:url(../img/sprite.png) -75px -516px no-repeat;
+    float:left;
+    color:#fff;
+    text-decoration:none;
+}
+
+#setup #play {
+    width:94%;
+    margin:auto;
+    clear:both;
+}
+
+#setup a[href="#section-game"] {
+    display:block;
+    padding:10px;   
+    background:#E41515;
+    
+   background:rgba(228,21,21,0.5);
+    border:solid 2px #f8ca00;
+    text-decoration:none;
+    color:#fcd40a;
+    font-weight:bold;
+    text-align:center;
+      
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    
+}
+#setup .grid {
+    clear:both;
+    margin-top:10px;
+}

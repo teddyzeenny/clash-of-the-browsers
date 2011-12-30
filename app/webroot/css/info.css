@@ -1,0 +1,149 @@
+#info nav {
+    border-bottom:solid 1px #ccc;
+    padding:20px;
+    padding-bottom:70px;
+}
+
+#info nav ul li {
+    list-style-type:none;
+    float:left;
+    margin-top:30px;
+    
+}
+
+#info nav ul li+li{
+     float:right;
+     margin-right:10px;
+}
+   
+#info nav a {
+    font-size:1.5em;
+    color:#f8ca00;
+    font-style:italic;
+    display:block;
+    width:200px;
+    
+    text-align:center;
+    text-decoration:none;
+    padding:1em;
+    
+    
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+
+
+
+#info #new_game a{
+      background:#E41515;
+    background:rgba(228,21,21,0.5);
+    border:solid 2px #f8ca00;
+    
+}
+
+
+#info #new_game a:hover,
+#info #resume a:hover
+{   
+    -o-transition:   all 0.6s ease-out;
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition:all 0.6s ease-out;
+    transition:all 0.6 s ease-out;
+    box-shadow: 0 0 16px rgba(248, 202, 0, 1.0), 0 0 36px rgba(248, 202 , 0, 1.0);
+}
+
+
+#info #resume a {
+    
+    background:#057705;
+    background:rgba(5,119,5,0.5);
+    border:solid 2px #f8ca00;
+}
+
+
+#info {
+    padding-top:20px;
+}
+
+
+#info .column1 {
+    width:650px;
+    float:left;
+    border-right:solid 1px #ccc;
+}
+
+
+
+#info article h1 a{
+    color:#F8CA00;
+    text-decoration:none;
+}
+
+#info article p, #info article ul {
+    margin-top:1em;
+}
+
+#info .how-to {
+    float:left;
+    padding:0.5em;
+    
+}
+
+#info .high-scores {
+    float:right;
+    width:200px;
+}
+
+#info .high-scores li {
+    list-style-type:none;
+    clear:left;
+    float:left;
+    width:100%;
+    padding-top:10px;
+    
+}
+
+#info .high-scores .name {
+    display:block;
+    float:left;
+    padding-left:5px;
+}
+
+#info .high-scores .value {
+    float:right;
+    text-align:right;
+    display:block;
+}
+
+
+#info .high-scores .admiral{
+    width:1em;
+    height:1em;
+    
+    display:block;
+    float:left;
+
+}
+
+#info .high-scores .admiral.Chromander {
+
+    background:url(../img/chrome.svg) center center no-repeat;
+}
+
+#info .high-scores .admiral.Operative {
+    background:url(../img/opera.svg) center center no-repeat;
+}
+
+#info .how-to a{
+    color:white;
+}
+
+#info .how-to h1 a {
+     color:#F8CA00;
+}
+
+#info article h1 a:hover {
+    color:white;
+}

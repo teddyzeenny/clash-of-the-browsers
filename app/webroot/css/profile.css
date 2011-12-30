@@ -1,0 +1,67 @@
+#profile article {
+    clear:left;
+    color:#fff;
+    text-align:center;
+    padding-top:1em;
+}
+
+#profile article h1 {
+    font-size:1.125em;
+    font-weight:bold;
+}
+
+#profile article ul {
+    padding-top:20px;
+}
+#profile article li {
+    float:left;
+    width:400px;
+    padding:20px;
+    list-style-type:none;
+    
+}
+
+#profile article li a:hover {
+    color:#fff;
+}
+
+#profile article li+li {
+    border-left:solid 2px #ccc;
+}
+
+
+#profile article li .title-img {
+    width:180px;
+    height:173px;
+    display:block;
+    text-decoration: none;
+    margin:auto;
+}
+
+
+#profile article li .title {
+     color:#f8ca00;
+    font-weight:bold;
+    font-size:1.875em;
+    text-decoration:none;
+    display:block;
+    
+     
+}
+
+
+#profile article li.chromander .title-img {
+   
+   /* background:url(../img/chromander_180_173.png) top center no-repeat;*/
+   
+   background:url(../img/sprite.png)  0px 0px no-repeat;
+   
+}
+
+#profile article li.opera .title-img {
+    /*
+    background:url(../img/opera_180_173.png) top center no-repeat;
+    */
+    background:url(../img/sprite.png)  0px -175px  no-repeat;
+  
+}

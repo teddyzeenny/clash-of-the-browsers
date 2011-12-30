@@ -1,0 +1,106 @@
+#profile article {
+    clear:left;
+    color:#fff;
+    text-align:center;
+    padding-top:1em;
+}
+
+#profile article h1 {
+    font-size:1.125em;
+    font-weight:bold;
+}
+
+#profile article ul {
+    list-style-type:none;
+    position:relative;
+    width:100%;
+    overflow:hidden;
+}
+
+#profile article  li {
+    min-height:370px;
+    width:100%;
+    display:block;
+    position:absolute;
+    padding-top:5px;
+    top:0px;
+    left:0px;
+    
+    -o-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;*
+}
+
+
+#profile article li.current {
+    position:relative;
+   
+    
+}
+
+#profile article li .title-img {
+    width:180px;
+    height:173px;
+    display:block;
+    text-decoration: none;
+    margin:auto;
+}
+
+#profile article li .title {
+     color:#f8ca00;
+    font-weight:bold;
+    font-size:1.875em;
+    text-decoration:none;
+    display:block;
+    
+     /*padding-top:175px;*/
+     
+}
+#profile article li.chromander .title-img {
+   
+   /* background:url(../img/chromander_180_173.png) top center no-repeat;*/
+   
+   background:url(../img/sprite.png)  0px 0px no-repeat;
+   
+}
+
+#profile article li.opera .title-img {
+    /*
+    background:url(../img/opera_180_173.png) top center no-repeat;
+    */
+    background:url(../img/sprite.png)  0px -175px  no-repeat;
+  
+}
+
+
+#profile article nav {
+    padding-top:10px;
+    
+    width:190px;
+    margin:auto;
+}
+#profile article nav a {
+    display:block;
+    
+}
+
+#profile article nav a.disabled {
+    opacity:0.3;
+    cursor:default;
+}
+#profile article nav .left {
+    background:url(../img/sprite.png) 0px -450px no-repeat;
+    width:66px;
+    height:57px;
+    float:left;
+}
+
+
+#profile article nav .right {
+    background:url(../img/sprite.png) -119px -450px no-repeat;
+    width:66px;
+    height:57px;
+    float:right;
+}
